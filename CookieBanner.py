@@ -20,23 +20,28 @@ class CookieBanner:
 			"accetta tutto",
 			"ok",
 			"accetta tutti"
-			"csdcever"
 		]
 
 		deny_word_keys = [
-			# "rifiuta",
-			# "non sono d'accordo"
-			"freverv"
+			"rifiuta",
+			"rifiuta tutto"
+			"rifiuto"
+			"rifiuta tutti"
+			"non sono d'accordo"
+			"continua senza accettare"
 		]
 		approve_btn = self.spot_a_btn(approve_word_keys)
 		deny_btn = self.spot_a_btn(deny_word_keys)
 
 		if approve_btn:
+			print("FIND APPROVE BUTTON")
 			approve_btn = BannerElement(approve_btn);
-			approve_btn.screenshot()
+			approve_btn.screenshot("approve")
 
 		if deny_btn:
-			print("Trovato rifiuta")
+			print("FIND REJECT BUTTON")
+			deny_btn = BannerElement(deny_btn);
+			deny_btn.screenshot("deny")
 
 
 	def spot_a_btn(self, word_keys):
@@ -60,6 +65,7 @@ class CookieBanner:
 				for word_key in word_keys:
 					if word_key in element_text:
 						return element
+			print("Did not find any element.")
 
 
 		return None
@@ -69,6 +75,6 @@ class BannerElement:
 	def __init__(self, element: WebElement):
 		self.element = element
 
-	def screenshot(self):
-		self.element.screenshot("screenshots/pic1.png")
+	def screenshot(self, name: str):
+		self.element.screenshot("screenshots/" + name + ".png")
 

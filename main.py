@@ -31,25 +31,40 @@ SLEEP_TIME_CMP_WAIT = 3
 #
 #     print(visitedwebsites)
 
-def checkTCFandFindButtons():
-	options = Options()
+def checkTCFandFindButtons(it_list):
+	tcfwebsitefile = 'tcfwebsites.csv'
+	csvreader = csv.reader(it_list)
+	tcfwebsites = []
 
+	options = Options()
 	options.add_argument("--headless")
 	driver = webdriver.Chrome(options=options)
-	#visitedwebsites = []
 
-	url = "https://" + "repubblica.it"
-	driver.get(url)
 	time.sleep(SLEEP_TIME_CMP_WAIT)
 
 	try:
-		driver.execute_script('if (__tcfapi) return "ok";', None)
-		print('__tcf found')
-		cookie_banner = CookieBanner(url, driver)
-		cookie_banner.spot_banner_buttons()
+		for row in csvreader:
+			str = row[0]
+			print(str)
+			driver.get("https://"+str)
+			try:
+				driver.execute_script('if (__tcfapi) return "ok";', None)
+				print('__tcf found')
+				tcfwebsites.append(str)
+			except Exception as e:
+				continue
+			try:
+				with open(tcfwebsitefile, 'w', newline='') as fl:
+					writer = csv.writer(fl)
+					for website in tcfwebsites:
+						writer.writerow([website])
+			except BaseException as e:
+				print('BaseException:', fl)
 	# website.tcfexists = True
 	except JavascriptException as e:
 		print('__tcf not found: ', e)
+		#cookie_banner = CookieBanner(driver)
+		#cookie_banner.spot_banner_buttons()
 
 
 
@@ -80,8 +95,8 @@ def filterList(tranco_list):
 		print('BaseException:', tranco_list)
 
 
-# tranco_list = open('tranco_25JP9.csv')
-# filterList(tranco_list)
+#tranco_list = open('tranco_25JP9.csv')
+#filterList(tranco_list)
+it_list = open('itwebsites.csv')
+checkTCFandFindButtons(it_list)
 
-checkTCFandFindButtons()
-# executeCmpFunction(itwebsites)
