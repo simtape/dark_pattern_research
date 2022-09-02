@@ -79,6 +79,8 @@ class Button:
         self.apprBtnMeta = None
         self.denyBtn = None
         self.denyBtnMeta = None
+        self.denyBtnAmbiguous = None
+        self.denyBtnAmbiguousMeta = None
         self.moreBtn = None
         self.moreBtnMeta = None
         self.policyBtn = None
@@ -96,7 +98,10 @@ class Button:
             "personalizzaleopzioni",
             "gestiscilemieimpostazioni",
             "gestisciimpostazioni",
-            "piùopzioni"
+            "piùopzioni",
+            "gestionedelmonitoraggio",
+            "impostazionicookie",
+            "personalizza",
         ]
         moreBtn = self.spot_a_btn(preferences_word_keys)
         if moreBtn:
@@ -113,13 +118,25 @@ class Button:
             "nonsonod'accordo",
             "continuasenzaaccettare",
             "rifiutanonessenziali",
+            "nonaccettareechiudi",
+            "nonaccettare"
+        ]
+        deny_word_keys_ambiguous=[
+            "salvaedesci",
+            "salvalemiescelte",
         ]
         denyBtn = self.spot_a_btn(deny_word_keys)
+        denyBtnAmbiguous = self.spot_a_btn(deny_word_keys_ambiguous)
         if denyBtn:
             log.debug("FOUND REJECT BUTTON!")
             denyBtn = ButtonElement(denyBtn)
             self.denyBtn = denyBtn
             self.denyBtnMeta = denyBtn.getMeta()
+        else:
+            log.debug("FOUND REJECT BUTTON WITH AMBIGUOUS TEXT")
+            denyBtnAmbiguous = ButtonElement(denyBtnAmbiguous)
+            self.denyBtnAmbiguous = denyBtnAmbiguous
+            self.denyBtnAmbiguousMeta = denyBtnAmbiguous.getMetaAmbiguous()
 
         approve_word_keys = [
             "accetto",
@@ -128,6 +145,8 @@ class Button:
             "accettatutto",
             "ok",
             "accettatutti",
+            "accettoilmonitoraggio",
+            "accettaechiudi",
         ]
         apprBtn = self.spot_a_btn(approve_word_keys)
         if apprBtn:
@@ -140,7 +159,7 @@ class Button:
         ]
         policyBtn= self.spot_a_btn(policy_word_keys)
         if policyBtn:
-            log.debug("FOUND POLICY LINK!")
+            log.debug("FOUND POLICY BUTTON!")
             policyBtn=ButtonElement(policyBtn)
             self.policyBtn=policyBtn
             self.policyBtnMeta=policyBtn.getMeta()
@@ -219,6 +238,18 @@ class ButtonElement:
     def getMeta(self):
         return {
             "text": self.text,
+            "ambiguousText": False,
+            "color": self.color,
+            "textColor": self.textColor,
+            "type": self.type,
+            "redirect": self.redirect,
+            "html": self.html,
+            "size": self.size,
+        }
+    def getMetaAmbiguous(self):
+        return {
+            "text": self.text,
+            "ambiguousText": True,
             "color": self.color,
             "textColor": self.textColor,
             "type": self.type,
