@@ -1,9 +1,8 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
-from selenium.common.exceptions import *
+from selenium.webdriver.chrome.options import Options
+
+from webdriver_manager.chrome import ChromeDriverManager
 import csv
 import cv2 as cv
 import pytesseract
@@ -21,8 +20,10 @@ class BannerDetector:
     def banners_research(self):
         options = Options()
 
-        options.headless = True
-        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+        options.add_argument("--headless")
+        # driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+        driver =webdriver.Chrome(ChromeDriverManager().install(), options = options)
+
         print(self.website_list)
         for website in self.website_list:
             print("sito: " + website)

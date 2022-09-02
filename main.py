@@ -68,11 +68,11 @@ def filter_csv():
     data.to_csv('data/csv_files/already_banner_detected.csv', index=False)
 
 
-# website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=500)
-# csv_path = "data/csv_files/banner_detected_websites.csv"
-# website_list = website_list_df['website'].tolist()
-#
-# banner_detector = bd.BannerDetector(website_list=website_list, csv_path=csv_path)
-# banner_detector.banners_research()
+website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=878)
+csv_path = "data/csv_files/banner_detected_websites.csv"
+website_list = website_list_df['website'].tolist()
 
-filter_csv()
+banner_detector = bd.BannerDetector(website_list=website_list, csv_path=csv_path)
+banner_detector.banners_research()
+
+# filter_csv()
