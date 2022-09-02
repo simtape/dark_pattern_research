@@ -1,5 +1,4 @@
 import time
-
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -10,29 +9,33 @@ import csv
 from CookieBanner import CookieBanner
 import pandas
 from utilities import BannerDetector as bd
+from loguru import logger as log
+from itertools import islice
+import csv
+from CookieBanner import Database, PageScanner, setupDriver
+
+runId = 0
+if __name__ == "__main__":
+    db = Database()
+    url_list = []
+    with open("url_list_2.csv", "r") as link_csv_file:
+        csv_reader = csv.DictReader(link_csv_file)
+
+        header = next(csv_reader)
+        if header != None:
+            for link in islice(csv_reader, 5000):
+                http_string = "https://" + link["Domain"]
+                url_list.append(http_string)
+
+    for url in url_list:
+        runId += 1
+        browser = setupDriver(True)
+        with log.contextualize(url=url):
+            res = PageScanner(browser, db, url)
+            res.doScan()
+            browser.quit()
 
 SLEEP_TIME_CMP_WAIT = 2
-
-
-def check_tcf_and_find_btns():
-    options = Options()
-
-    options.add_argument("--headless")
-    driver = webdriver.Chrome(options=options)
-    # visitedwebsites = []
-
-    url = "https://" + "repubblica.it"
-    driver.get(url)
-    time.sleep(SLEEP_TIME_CMP_WAIT)
-
-    try:
-        driver.execute_script('if (__tcfapi) return "ok";', None)
-        print('__tcf found')
-        cookie_banner = CookieBanner(url, driver)
-        cookie_banner.spot_banner_buttons()
-    # website.tcfexists = True
-    except JavascriptException as e:
-        print('__tcf not found: ', e)
 
 
 # takes as input the tranco list with the top 1M websites
