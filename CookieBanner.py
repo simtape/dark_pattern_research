@@ -70,5 +70,5 @@ class BannerElement:
 		self.element = element
 
 	def screenshot(self):
-		self.element.screenshot("screenshots/pic1.png")
+		self.element.screenshot("data/screenshots/pic1.png")
 
