@@ -1,4 +1,3 @@
-import json
 import sys
 import os
 import splinter
@@ -9,7 +8,7 @@ from selenium import webdriver as wd
 from selenium.webdriver.support.color import Color
 from pymongo import MongoClient, ReturnDocument
 from datetime import datetime
-from BannerDetection import find_cookie_banner
+from utilities.ButtonDetection import find_cookie_banner
 
 mainPath = os.path.abspath(os.getcwd())
 
