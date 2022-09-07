@@ -1,11 +1,17 @@
 import sys
 import os
+
+import selenium
 from selenium import webdriver
 from loguru import logger as log
 from selenium.webdriver.common.by import By
 from pymongo import MongoClient, ReturnDocument
-from datetime import datetime
+from datetime import datetime, time
+from selenium.webdriver.chrome.options import Options
 from utilities.ButtonElement import ButtonElement
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 
 mainPath = os.path.abspath(os.getcwd())
 
@@ -117,6 +123,7 @@ class Button:
             "salvaedesci",
             "salvalemiescelte",
             "salva",
+            "confermalemiescelte",
         ]
         denyBtn = self.button_types(deny_word_keys)
         denyBtnAmbiguous = self.button_types(deny_word_keys_ambiguous)
@@ -130,10 +137,6 @@ class Button:
             denyBtnAmbiguous = ButtonElement(denyBtnAmbiguous)
             self.denyBtnAmbiguous = denyBtnAmbiguous
             self.denyBtnAmbiguousMeta = denyBtnAmbiguous.getDataAmbiguous()
-        elif moreBtn:
-            log.debug("click")
-            # cookie_button = self.elem.find_element_by_xpath("//button[text()='Preferenze dei cookie']")
-            # cookie_button.click()
 
         approve_word_keys = [
             "accetto",
@@ -153,16 +156,12 @@ class Button:
             self.apprBtn = apprBtn
             self.apprBtnMeta = apprBtn.getDataButton()
         policy_word_keys = [
-            "privacy policy",
+            "privacypolicy",
+            "cookiepolicy",
         ]
         policyBtn = self.button_types(policy_word_keys)
         if policyBtn:
             log.debug("FOUND COOKIE POLICY BUTTON!")
-            policyBtn = ButtonElement(policyBtn)
-            self.policyBtn = policyBtn
-            self.policyBtnMeta = policyBtn.getDataButton()
-        else:
-            policyBtn = self.policy_link()
             policyBtn = ButtonElement(policyBtn)
             self.policyBtn = policyBtn
             self.policyBtnMeta = policyBtn.getDataButton()
@@ -181,16 +180,6 @@ class Button:
                 for word_key in word_keys:
                     if word_key == elemText:
                         return elem
-        return None
-
-    @log.catch
-    def policy_link(self):
-        xpaths = ["//a[contains(@href,'cookie')]", "//a[contains(@href,'policy')]"]
-        for xpath in xpaths:
-            elem = self.web_driver.find_element_by_xpath(xpath)
-            if elem:
-                log.debug("FOUND COOKIE POLICY LINK ELEMENT!.")
-                return elem
         return None
 
     def getData(self):
