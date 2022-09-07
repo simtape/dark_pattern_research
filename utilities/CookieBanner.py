@@ -6,64 +6,12 @@ from loguru import logger as log
 from splinter import Browser as Sbrowser
 from selenium import webdriver as wd
 from selenium.webdriver.support.color import Color
-from pymongo import MongoClient, ReturnDocument
 from datetime import datetime
 from utilities.ButtonDetection import find_cookie_banner
+import requests
 
 mainPath = os.path.abspath(os.getcwd())
-
-
-class Database:
-
-    def __init__(self, db_url=None):
-        try:
-            self.client = MongoClient(db_url)
-            self.db = self.client["CookieBanner"]
-            self.runs = self.db["runs"]
-            status = self.status()
-            log.debug(
-                "Running MongoDB {} on host {}.",
-                status["version"],
-                status["host"],
-                status["uptime"],
-            )
-        except Exception as e:
-            log.exception(e)
-
-    def status(self):
-        try:
-            status = self.db.command("serverStatus")
-            return status
-        except Exception as e:
-            log.exception(e)
-
-    def create_run(self, url):
-        try:
-            new_run = {
-                "url": url,
-                "status": "startingRun",
-            }
-            obj_id = self.runs.insert_one(new_run).inserted_id
-            return obj_id
-        except Exception as e:
-            log.exception(e)
-
-    def modify_run(self, run_id, data):
-        try:
-            run = self.runs.find_one_and_update(
-                {"_id": run_id}, {"$set": data}, return_document=ReturnDocument.AFTER
-            )
-            return run
-        except Exception as e:
-            log.exception(e)
-
-    def get_run(self, run_id):
-        try:
-            run = self.runs.find_one({"_id": run_id})
-            return run
-        except Exception as e:
-            log.exception(e)
-
+post_url = "http://127.0.0.1:8000/cookie_banner"
 
 class Button:
     def __init__(
@@ -120,7 +68,7 @@ class Button:
             "nonaccettareechiudi",
             "nonaccettare"
         ]
-        deny_word_keys_ambiguous=[
+        deny_word_keys_ambiguous = [
             "salvaedesci",
             "salvalemiescelte",
         ]
@@ -153,17 +101,17 @@ class Button:
             apprBtn = ButtonElement(apprBtn)
             self.apprBtn = apprBtn
             self.apprBtnMeta = apprBtn.getMeta()
-        policy_word_keys=[
+        policy_word_keys = [
             "privacy policy",
         ]
-        policyBtn= self.spot_a_btn(policy_word_keys)
+        policyBtn = self.spot_a_btn(policy_word_keys)
         if policyBtn:
             log.debug("FOUND POLICY BUTTON!")
-            policyBtn=ButtonElement(policyBtn)
-            self.policyBtn=policyBtn
-            self.policyBtnMeta=policyBtn.getMeta()
+            policyBtn = ButtonElement(policyBtn)
+            self.policyBtn = policyBtn
+            self.policyBtnMeta = policyBtn.getMeta()
         else:
-            policyBtn=self.spot_policy_link()
+            policyBtn = self.spot_policy_link()
             policyBtn = ButtonElement(policyBtn)
             self.policyBtn = policyBtn
             self.policyBtnMeta = policyBtn.getMeta()
@@ -197,11 +145,11 @@ class Button:
 
     def getMeta(self):
         return {
-            "bannerSize": self.size,
-            "moreBtn": self.moreBtnMeta,
-            "denyBtn": self.denyBtnMeta,
-            "approveBtn": self.apprBtnMeta,
-            "cookiePolicy": self.policyBtnMeta,
+            #"banner_size": self.size,
+            "more_btn": self.moreBtnMeta,
+            "deny_btn": self.denyBtnMeta,
+            "approve_btn": self.apprBtnMeta,
+            "cookie_policy": self.policyBtnMeta,
         }
 
 
@@ -237,20 +185,21 @@ class ButtonElement:
     def getMeta(self):
         return {
             "text": self.text,
-            "ambiguousText": False,
+            "ambiguous_text": False,
             "color": self.color,
-            "textColor": self.textColor,
+            "text_color": self.textColor,
             "type": self.type,
             "redirect": self.redirect,
             "html": self.html,
             "size": self.size,
         }
+
     def getMetaAmbiguous(self):
         return {
             "text": self.text,
-            "ambiguousText": True,
+            "ambiguous_text": True,
             "color": self.color,
-            "textColor": self.textColor,
+            "text_color": self.textColor,
             "type": self.type,
             "redirect": self.redirect,
             "html": self.html,
@@ -261,19 +210,16 @@ class ButtonElement:
 @log.catch
 class PageScanner:
     def __init__(
-            self, browser: splinter.driver.DriverAPI, db: Database, url: str
+            self, browser: splinter.driver.DriverAPI,  url: str
     ):
         self.browser = browser
-        self.db = db
         self.windowSize = self.browser.driver.get_window_size()
         self.url = url
         self.consent = None
 
-    @log.catch
     def doScan(self):
         try:
             self.startedAt = datetime.now()
-            self.runId = self.db.create_run(self.url)
             self.browser.cookies.delete()
             self.browser.visit(self.url)
 
@@ -281,23 +227,26 @@ class PageScanner:
             if consent:
                 self.consent = Button(self.url, consent)
                 self.endedAt = datetime.now()
-                self.db.modify_run(
-                    self.runId,
-                    {
+                data = {
                         "status": "runDone",
-                        "browserSize": self.windowSize,
-                        "button": self.consent.getMeta(),
-                    },
-                )
+                        "browser_size": str(self.windowSize),
+                        "buttons": self.consent.getMeta(),
+                    }
+                print(data)
+                print("ciao")
+                response = requests.post(post_url, json=data)
+                print(response.json())
+
             else:
                 self.endedAt = datetime.now()
-                self.db.modify_run(
-                    self.runId,
-                    {
-                        "status": "noNoticeFound",
-                        "browserSize": self.windowSize,
-                    },
-                )
+                data = {
+                    "status": "noNoticeFound",
+                    "browser_size": str(self.windowSize),
+                    "buttons": None
+
+                }
+                response = requests.post(post_url, json=data)
+                print(response.json())
                 return None
 
             log.info("DONE!")
@@ -306,13 +255,9 @@ class PageScanner:
             log.exception(e)
 
 
-
 def setupDriver(hless=False):
     browserOptions = wd.ChromeOptions()
     browserOptions.add_argument("--window-size=1920,1080")
-    browserOptions.add_experimental_option("w3c", False)
+    browserOptions.add_experimental_option("w3c", True)
     browserOptions.headless = hless
     return Sbrowser("chrome", options=browserOptions)
-
-
-

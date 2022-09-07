@@ -4,28 +4,24 @@ from utilities import BannerDetector as bd
 from loguru import logger as log
 from itertools import islice
 import csv
-from utilities.CookieBanner import Database, PageScanner, setupDriver
+from utilities.CookieBanner import PageScanner, setupDriver
 
+"""
+wrapper functions of methods for detection
+"""
 
 # start detection and collection of buttons in a banner
 def startButtonDetection():
     runId = 0
-    db = Database()
-    url_list = []
-    with open("url_list_2.csv", "r") as link_csv_file:
-        csv_reader = csv.DictReader(link_csv_file)
+    website_list_df = pandas.read_csv("data/csv_files/banner_detected_websites.csv")
+    website_list = website_list_df['website'].tolist()
 
-        header = next(csv_reader)
-        if header != None:
-            for link in islice(csv_reader, 5000):
-                http_string = "https://" + link["Domain"]
-                url_list.append(http_string)
-
-    for url in url_list:
+    for url in website_list:
+        url = "https://" + url
         runId += 1
         browser = setupDriver(True)
         with log.contextualize(url=url):
-            res = PageScanner(browser, db, url)
+            res = PageScanner(browser, url)
             res.doScan()
             browser.quit()
 
@@ -39,8 +35,8 @@ def filter_csv():
 
 
 # starts the detection of banners, with a given list of websites in input
-def bannerDetection():
-    website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=878)
+def startBannerDetection(number_of_websites):
+    website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=number_of_websites)
     csv_path = "data/csv_files/banner_detected_websites.csv"
     website_list = website_list_df['website'].tolist()
 
