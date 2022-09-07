@@ -2,7 +2,6 @@ from selenium.webdriver.remote.webdriver import WebElement
 from selenium.webdriver.support.color import Color
 
 class ButtonElement:
-
     def __init__(self, btnElem: WebElement):
         self.text = None
         self.color = None
@@ -33,25 +32,25 @@ class ButtonElement:
     def getDataButton(self):
         return {
             "text": self.text,
-            "ambiguousText": False,
+            "ambiguous_text": False,
             "color": self.color,
-            "textColor": self.textColor,
+            "text_color": self.textColor,
             "type": self.type,
             "redirect": self.redirect,
             "html": self.html,
-            "size": self.size,
+            "size": self.size
         }
 
     def getDataAmbiguous(self):
         return {
             "text": self.text,
-            "ambiguousText": True,
+            "ambiguous_text": True,
             "color": self.color,
-            "textColor": self.textColor,
+            "text_color": self.textColor,
             "type": self.type,
             "redirect": self.redirect,
             "html": self.html,
-            "size": self.size,
+            "size": self.size
         }
 
 

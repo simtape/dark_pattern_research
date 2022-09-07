@@ -1,79 +1,20 @@
 import sys
 import os
-
-import selenium
 from selenium import webdriver
 from loguru import logger as log
-from selenium.webdriver.common.by import By
-from pymongo import MongoClient, ReturnDocument
-from datetime import datetime, time
-from selenium.webdriver.chrome.options import Options
+import requests
+from datetime import datetime
 from utilities.ButtonElement import ButtonElement
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 
 mainPath = os.path.abspath(os.getcwd())
-
-
-class Database:
-
-    def __init__(self, db_url=None):
-        try:
-            self.client = MongoClient(db_url)
-            self.db = self.client["CookieBanner"]
-            self.runs = self.db["runs"]
-            status = self.status()
-            log.debug(
-                "Running MongoDB {} on host {}.",
-                status["version"],
-                status["host"],
-                status["uptime"],
-            )
-        except Exception as e:
-            log.exception(e)
-
-    def status(self):
-        try:
-            status = self.db.command("serverStatus")
-            return status
-        except Exception as e:
-            log.exception(e)
-
-    def create_run(self, url):
-        try:
-            new_run = {
-                "url": url,
-                "status": "startingRun",
-            }
-            obj_id = self.runs.insert_one(new_run).inserted_id
-            return obj_id
-        except Exception as e:
-            log.exception(e)
-
-    def modify_run(self, run_id, data):
-        try:
-            run = self.runs.find_one_and_update(
-                {"_id": run_id}, {"$set": data}, return_document=ReturnDocument.AFTER
-            )
-            return run
-        except Exception as e:
-            log.exception(e)
-
-    def get_run(self, run_id):
-        try:
-            run = self.runs.find_one({"_id": run_id})
-            return run
-        except Exception as e:
-            log.exception(e)
-
+post_url = "http://127.0.0.1:8000/cookie_banner"
 
 class Button:
     def __init__(
-            self, url: str, web_driver: webdriver, db: Database
+            self, url: str, web_driver: webdriver
     ):
         self.url = url
-        self.db = db
         self.web_driver = web_driver
         self.links = []
         self.apprBtn = None
@@ -184,44 +125,41 @@ class Button:
 
     def getData(self):
         return {
-            "moreBtn": self.moreBtnMeta,
-            "denyBtn": self.denyBtnMeta,
-            "approveBtn": self.apprBtnMeta,
-            "cookiePolicy": self.policyBtnMeta,
+            "more_btn": self.moreBtnMeta,
+            "deny_btn": self.denyBtnMeta,
+            "approve_btn": self.apprBtnMeta,
+            "cookie_policy": self.policyBtnMeta,
         }
 
     @log.catch
     def doResearch(self):
         try:
             self.startedAt = datetime.now()
-            self.runId = self.db.create_run(self.url)
             self.web_driver.delete_all_cookies()
             self.web_driver.get(self.url)
             self.find_buttons()
-            cookies = self.getData()
-            if cookies:
+            buttons = self.getData()
+
+            if buttons:
                 self.endedAt = datetime.now()
-                self.db.modify_run(
-                    self.runId,
-                    {
-                        "status": "runDone",
-                        "button": cookies
-                    }
-                )
+                data = {
+                    "website_url": self.url,
+                    "status": "runDone",
+                    "buttons": buttons,
+                }
+                response = requests.post(post_url, json=data)
+                print(response.json())
             else:
                 self.endedAt = datetime.now()
-                self.db.modify_run(
-                    self.runId,
-                    {
-                        "status": "noDataFound",
-                    },
-                )
-                return None
+                data = {
+                    "website_url": self.url,
+                    "status": "noNoticeFound",
+                    "buttons": None
+
+                }
+                response = requests.post(post_url, json=data)
+                print(response.json())
             log.info("DONE!")
         except:
             e = sys.exc_info()[0]
             log.exception(e)
-
-
-
-

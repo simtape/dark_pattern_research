@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
 from webdriver_manager.chrome import ChromeDriverManager
 import csv
 import cv2 as cv

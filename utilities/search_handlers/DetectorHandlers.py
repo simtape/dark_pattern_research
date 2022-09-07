@@ -2,34 +2,28 @@ import pandas as pd
 import pandas
 from selenium import webdriver
 from utilities import BannerDetector as bd
-from itertools import islice
-import csv
-from utilities.ButtonResearch import Database, Button
+from utilities.ButtonResearch import Button
 from selenium.webdriver.chrome.options import Options
 SLEEP_TIME_CMP_WAIT = 3
+
+"""
+wrapper functions of methods for detection
+"""
+
 
 # start detection and collection of buttons in a banner
 def startButtonDetection():
     runId = 0
-    db = Database()
-    url_list = []
 
-    with open("url_list_2.csv", "r") as link_csv_file:
-        csv_reader = csv.DictReader(link_csv_file)
+    website_list_df = pandas.read_csv("data/csv_files/banner_detected_websites.csv")
+    website_list = website_list_df['website'].tolist()
 
-        header = next(csv_reader)
-        if header != None:
-            for link in islice(csv_reader, 5000):
-                http_string = "https://" + link["Domain"]
-                url_list.append(http_string)
-
-    for url in url_list:
-        runId += 1
+    for url in website_list:
+        url = "https://" + url
         options = Options()
         options.add_argument("--headless")
         driver = webdriver.Chrome(options=options)
-
-        res = Button(url, driver, db)
+        res = Button(url, driver)
         res.doResearch()
 
 
@@ -43,8 +37,8 @@ def filter_csv():
 
 
 # starts the detection of banners, with a given list of websites in input
-def bannerDetection():
-    website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=878)
+def startBannerDetection(number_of_websites):
+    website_list_df = pandas.read_csv("data/csv_files/itwebsites.csv", nrows=number_of_websites)
     csv_path = "data/csv_files/banner_detected_websites.csv"
     website_list = website_list_df['website'].tolist()
 
