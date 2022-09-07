@@ -6,6 +6,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 # startBannerDetection(number_of_websites=659)
-# startButtonDetection()
+startButtonDetection()
 
 

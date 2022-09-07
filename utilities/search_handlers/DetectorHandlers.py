@@ -1,29 +1,31 @@
 import pandas as pd
 import pandas
+from selenium import webdriver
 from utilities import BannerDetector as bd
-from loguru import logger as log
-from itertools import islice
-import csv
-from utilities.CookieBanner import PageScanner, setupDriver
+from utilities.ButtonResearch import Button
+from selenium.webdriver.chrome.options import Options
+SLEEP_TIME_CMP_WAIT = 3
 
 """
 wrapper functions of methods for detection
 """
 
+
 # start detection and collection of buttons in a banner
 def startButtonDetection():
     runId = 0
+
     website_list_df = pandas.read_csv("data/csv_files/banner_detected_websites.csv")
     website_list = website_list_df['website'].tolist()
 
     for url in website_list:
         url = "https://" + url
-        runId += 1
-        browser = setupDriver(True)
-        with log.contextualize(url=url):
-            res = PageScanner(browser, url)
-            res.doScan()
-            browser.quit()
+        options = Options()
+        options.add_argument("--headless")
+        driver = webdriver.Chrome(options=options)
+        res = Button(url, driver)
+        res.doResearch()
+
 
 
 # remove duplicates from a csv
