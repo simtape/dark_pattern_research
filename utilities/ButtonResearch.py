@@ -29,6 +29,34 @@ class Button:
         self.policyBtnMeta = None
 
     def find_buttons(self):
+        approve_word_keys = [
+            "accetto",
+            "sonod'accordo",
+            "accetta",
+            "accettatutto",
+            "ok",
+            "accettatutti",
+            "accettoilmonitoraggio",
+            "accettaechiudi",
+            "accettatuttiicookie"
+        ]
+        apprBtn = self.button_types(approve_word_keys)
+        if apprBtn:
+            log.debug("FOUND APPROVE BUTTON!")
+            apprBtn = ButtonElement(apprBtn)
+            self.apprBtn = apprBtn
+            self.apprBtnMeta = apprBtn.getDataButton()
+        policy_word_keys = [
+            "privacypolicy",
+            "cookiepolicy"
+        ]
+        policyBtn = self.button_types(policy_word_keys)
+        if policyBtn:
+            log.debug("FOUND COOKIE POLICY BUTTON!")
+            policyBtn = ButtonElement(policyBtn)
+            self.policyBtn = policyBtn
+            self.policyBtnMeta = policyBtn.getDataButton()
+
         preferences_word_keys = [
             "gestiscipreferenze",
             "gestisciopzioni",
@@ -40,9 +68,10 @@ class Button:
             "gestionedelmonitoraggio",
             "impostazionicookie",
             "personalizza",
-            "preferenzedeicookie",
+            "preferenzedeicookie"
         ]
         moreBtn = self.button_types(preferences_word_keys)
+        moreBtnclick = moreBtn
         if moreBtn:
             log.debug("FOUND MORE BUTTON!")
             moreBtn = ButtonElement(moreBtn)
@@ -64,7 +93,7 @@ class Button:
             "salvaedesci",
             "salvalemiescelte",
             "salva",
-            "confermalemiescelte",
+            "confermalemiescelte"
         ]
         denyBtn = self.button_types(deny_word_keys)
         denyBtnAmbiguous = self.button_types(deny_word_keys_ambiguous)
@@ -72,40 +101,37 @@ class Button:
             log.debug("FOUND REJECT BUTTON!")
             denyBtn = ButtonElement(denyBtn)
             self.denyBtn = denyBtn
+            self.denyBtn.second_layer = False
+            self.denyBtn.ambiguous_text =False
             self.denyBtnMeta = denyBtn.getDataButton()
         elif denyBtnAmbiguous:
             log.debug("FOUND REJECT BUTTON WITH AMBIGUOUS TEXT")
             denyBtnAmbiguous = ButtonElement(denyBtnAmbiguous)
-            self.denyBtnAmbiguous = denyBtnAmbiguous
-            self.denyBtnAmbiguousMeta = denyBtnAmbiguous.getDataAmbiguous()
+            self.denyBtn = denyBtnAmbiguous
+            self.denyBtn.second_layer = False
+            self.denyBtn.ambiguous_text = True
+            self.denyBtnAmbiguousMeta = denyBtnAmbiguous.getDataButton()
+        elif moreBtn:
+            moreBtnclick.click()
+            denyBtnSecondLayer = self.button_types(deny_word_keys)
+            denyBtnAmbiguousSecondLayer = self.button_types(deny_word_keys_ambiguous)
+            if denyBtnSecondLayer:
+                log.debug("FOUND REJECT BUTTON IN SECOND LAYER!")
+                denyBtnSecondLayer = ButtonElement(denyBtnSecondLayer)
+                self.denyBtn = denyBtnSecondLayer
+                self.denyBtn.second_layer = True
+                self.denyBtn.ambiguous_text = False
+                self.denyBtnMeta = denyBtnSecondLayer.getDataButton()
+            elif denyBtnAmbiguousSecondLayer:
+                log.debug("FOUND REJECT BUTTON WITH AMBIGUOUS TEXT IN SECOND LAYER")
+                denyBtnAmbiguousSecondLayer = ButtonElement(denyBtnAmbiguousSecondLayer)
+                self.denyBtn = denyBtnAmbiguousSecondLayer
+                self.denyBtn.second_layer = True
+                self.denyBtn.ambiguous_text = True
+                self.denyBtnAmbiguousMeta = denyBtnAmbiguousSecondLayer.getDataButton()
 
-        approve_word_keys = [
-            "accetto",
-            "sonod'accordo",
-            "accetta",
-            "accettatutto",
-            "ok",
-            "accettatutti",
-            "accettoilmonitoraggio",
-            "accettaechiudi",
-            "accettatuttiicookie",
-        ]
-        apprBtn = self.button_types(approve_word_keys)
-        if apprBtn:
-            log.debug("FOUND APPROVE BUTTON!")
-            apprBtn = ButtonElement(apprBtn)
-            self.apprBtn = apprBtn
-            self.apprBtnMeta = apprBtn.getDataButton()
-        policy_word_keys = [
-            "privacypolicy",
-            "cookiepolicy",
-        ]
-        policyBtn = self.button_types(policy_word_keys)
-        if policyBtn:
-            log.debug("FOUND COOKIE POLICY BUTTON!")
-            policyBtn = ButtonElement(policyBtn)
-            self.policyBtn = policyBtn
-            self.policyBtnMeta = policyBtn.getDataButton()
+
+
 
     @log.catch
     def button_types(self, word_keys):
@@ -153,7 +179,7 @@ class Button:
                 self.endedAt = datetime.now()
                 data = {
                     "website_url": self.url,
-                    "status": "noNoticeFound",
+                    "status": "noDataFound",
                     "buttons": None
 
                 }

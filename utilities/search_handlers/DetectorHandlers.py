@@ -13,7 +13,6 @@ wrapper functions of methods for detection
 
 # start detection and collection of buttons in a banner
 def startButtonDetection():
-    runId = 0
 
     website_list_df = pandas.read_csv("data/csv_files/banner_detected_websites.csv")
     website_list = website_list_df['website'].tolist()
