@@ -10,6 +10,8 @@ class ButtonElement:
         self.redirect = None
         self.html = None
         self.size = None
+        self.second_layer = None
+        self.ambiguous_text = None
         if btnElem:
             self.elem = btnElem
             if self.elem:
@@ -32,19 +34,8 @@ class ButtonElement:
     def getDataButton(self):
         return {
             "text": self.text,
-            "ambiguous_text": False,
-            "color": self.color,
-            "text_color": self.textColor,
-            "type": self.type,
-            "redirect": self.redirect,
-            "html": self.html,
-            "size": self.size
-        }
-
-    def getDataAmbiguous(self):
-        return {
-            "text": self.text,
-            "ambiguous_text": True,
+            "ambiguous_text": self.ambiguous_text,
+            "second_layer": self.second_layer,
             "color": self.color,
             "text_color": self.textColor,
             "type": self.type,
