@@ -169,7 +169,7 @@ class Button:
             if buttons:
                 self.endedAt = datetime.now()
                 data = {
-                    "website_url": self.url,
+                    "url": self.url,
                     "status": "runDone",
                     "buttons": buttons,
                 }
@@ -178,7 +178,7 @@ class Button:
             else:
                 self.endedAt = datetime.now()
                 data = {
-                    "website_url": self.url,
+                    "url": self.url,
                     "status": "noDataFound",
                     "buttons": None
 
