@@ -10,8 +10,8 @@ class ButtonElement:
         self.redirect = None
         self.html = None
         self.size = None
-        self.second_layer = None
-        self.ambiguous_text = None
+        self.second_layer = False
+        self.ambiguous_text = False
         if btnElem:
             self.elem = btnElem
             if self.elem:
