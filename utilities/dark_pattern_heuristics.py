@@ -23,33 +23,64 @@ class DarkPatternFinder:
                 self.color_mismatch = False
 
     def exists_size_mismatch(self):
-        more_btn_height = self.banner.buttons.more_btn.size.height
-        more_btn_width = self.banner.buttons.more_btn.size.width
+        approve_btn_height = self.banner.buttons.approve_btn.size.height
+        approve_btn_width = self.banner.buttons.approve_btn.size.width
 
         deny_btn_height = self.banner.buttons.deny_btn.size.height
         deny_btn_width = self.banner.buttons.deny_btn.size.width
 
-        if more_btn_height > deny_btn_height or more_btn_width > deny_btn_width:
+        if approve_btn_height > deny_btn_height or approve_btn_width > deny_btn_width:
             self.size_mismatch = True
         else:
             self.size_mismatch = False
 
-    def no_way_to_opt_first_layer(self):
-        return
+    def no_way_to_opt(self):
+        deny_btn = self.banner.buttons.deny_btn
 
-    def no_way_to_opt_second_layer(self):
-        return
+        if not deny_btn:
+            self.no_way_opt_first_layer: True
+            self.no_way_opt_second_layer: True
+        elif deny_btn.second_layer:
+            self.no_way_opt_first_layer: True
+            self.no_way_opt_second_layer: False
+        else:
+            self.no_way_opt_first_layer: False
+            self.no_way_opt_second_layer: deny_btn.second_layer
+
+
 
     def exists_redirect(self):
+        redirect = self.banner.buttons.deny_btn.redirect
+        if redirect:
+            self.redirect = True
+        else:
+            self.redirect = False
         return
 
     def no_way_to_manage_preferences(self):
+        more_btn = self.banner.buttons.more_btn
+        if not more_btn:
+            self.manage_preferences: False
+        else:
+            self.manage_preferences: True
         return
 
     def exists_cookie_policy(self):
+        cookie_policy = self.banner.buttons.cookie_policy
+        if not cookie_policy:
+            self.cookie_policy = False
+        else:
+            return True
         return
 
     def ambiguous_text(self):
+        deny_btn = self.banner.buttons.deny_btn
+
+        if deny_btn.ambiguous_text:
+            self.ambiguous_text = True
+        else:
+            self.ambiguous_text = False
+
         return
 
     def generate_result(self):
