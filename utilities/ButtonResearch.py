@@ -38,7 +38,20 @@ class Button:
             "accettatutti",
             "accettoilmonitoraggio",
             "accettaechiudi",
-            "accettatuttiicookie"
+            "accettatuttiicookie",
+            "prosegui",
+            "accettailmonitoraggio",
+            "consenti",
+            "consentituttiicookie",
+            "consenticookie",
+            "accettaselezionati",
+            "ok,hocapito",
+            "accettaicookies",
+            "accettaicookie",
+            "accettacookie",
+            "accettacookies",
+            "consentitutti",
+            "acconsento"
         ]
         apprBtn = self.button_types(approve_word_keys)
         if apprBtn:
@@ -48,7 +61,15 @@ class Button:
             self.apprBtnMeta = apprBtn.getDataButton()
         policy_word_keys = [
             "privacypolicy",
-            "cookiepolicy"
+            "cookiepolicy",
+            "informativasuicookie",
+            "informativasullariservatezza",
+            "leggidipiù",
+            "privacy&cookiepolicy",
+            "maggioriinformazioni",
+            "informativacookie",
+            "piùinformazioni",
+            "impostazioni"
         ]
         policyBtn = self.button_types(policy_word_keys)
         if policyBtn:
@@ -67,8 +88,26 @@ class Button:
             "piùopzioni",
             "gestionedelmonitoraggio",
             "impostazionicookie",
+            "impostazionideicookie",
             "personalizza",
-            "preferenzedeicookie"
+            "preferenzedeicookie",
+            "gestisci",
+            "gestionedeicookie",
+            "gestiscicookie",
+            "gestionedeicookie",
+            "gestire",
+            "dettagli",
+            "impostazioni",
+            "sceltacookie",
+            "preferenze",
+            "visualizzalepreferenze",
+            "gestionedeiconsensi",
+            "gestisciicookies",
+            "opzioni",
+            "gestioneconsensi",
+            "scopridipiù",
+            "scopridipiùepersonalizza",
+            "gestiscileopzioni"
         ]
         moreBtn = self.button_types(preferences_word_keys)
         moreBtnclick = moreBtn
@@ -85,15 +124,34 @@ class Button:
             "rifiutatutti",
             "nonsonod'accordo",
             "continuasenzaaccettare",
-            "rifiutanonessenziali",
             "nonaccettareechiudi",
-            "nonaccettare"
+            "nonaccettare",
+            "nonaccettareilmonitoraggio",
+            "negatutti",
+            "nega",
+            "nonaccetto",
+            "rifiutaenonsostenerci",
+            "sevuoipuoinonaccettare",
+            "nonconsentire",
+            "nonconsentireicookie",
+            "rifiutacookie",
+            "rifiutaicookie",
+            "rifiutoicookie",
+            "nonaccettareicookie",
+            "nonaccettoicookie",
+            "rifiutatuttiicookie"
+
         ]
         deny_word_keys_ambiguous = [
             "salvaedesci",
             "salvalemiescelte",
             "salva",
-            "confermalemiescelte"
+            "confermalemiescelte",
+            "usasoloicookienecessari",
+            "usasolonecessari",
+            "consenticookietecnici",
+            "rifiutoicookiesnonessenziali",
+            "rifiutanonessenziali"
         ]
         denyBtn = self.button_types(deny_word_keys)
         denyBtnAmbiguous = self.button_types(deny_word_keys_ambiguous)
