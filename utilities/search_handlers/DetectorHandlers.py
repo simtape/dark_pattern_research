@@ -4,7 +4,6 @@ from selenium import webdriver
 from utilities import BannerDetector as bd
 from utilities.ButtonResearch import Button
 from selenium.webdriver.chrome.options import Options
-SLEEP_TIME_CMP_WAIT = 3
 
 """
 wrapper functions of methods for detection
