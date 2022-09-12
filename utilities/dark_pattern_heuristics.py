@@ -20,11 +20,11 @@ class DarkPatternFinder:
         else:
             self.exist_buttons = False
 
-
     def exists_color_mismatch(self):
 
         if self.banner["buttons"]["approve_btn"] is not None and self.banner["buttons"]["deny_btn"] is not None:
-            if self.banner["buttons"]["approve_btn"]["color"] is not None and self.banner["buttons"]["deny_btn"]["color"] is not None:
+            if self.banner["buttons"]["approve_btn"]["color"] is not None and self.banner["buttons"]["deny_btn"][
+                "color"] is not None:
                 if self.banner["buttons"]["approve_btn"]["color"] != self.banner["buttons"]["deny_btn"]["color"]:
                     self.color_mismatch = True
                 else:
@@ -52,16 +52,14 @@ class DarkPatternFinder:
             deny_btn = self.banner["buttons"]["deny_btn"]
 
             if deny_btn["second_layer"] is not None:
-                self.no_way_opt_first_layer: True
-                self.no_way_opt_second_layer: False
+                self.no_way_opt_first_layer = deny_btn["second_layer"]
+                self.no_way_opt_second_layer = False
             else:
-                self.no_way_opt_first_layer: False
-                self.no_way_opt_second_layer: False
+                self.no_way_opt_first_layer = deny_btn["second_layer"]
+                self.no_way_opt_second_layer = False
         else:
-            self.no_way_opt_first_layer: True
-            self.no_way_opt_second_layer: True
-
-
+            self.no_way_opt_first_layer = True
+            self.no_way_opt_second_layer = True
 
     def exists_redirect(self):
         if self.banner["buttons"]["deny_btn"] is not None:
@@ -77,9 +75,9 @@ class DarkPatternFinder:
 
     def no_way_to_manage_preferences(self):
         if self.banner["buttons"]["more_btn"] is not None:
-            self.manage_preferences: True
+            self.manage_preferences = True
         else:
-            self.manage_preferences: False
+            self.manage_preferences = False
             return
 
     def exists_cookie_policy(self):
@@ -90,19 +88,17 @@ class DarkPatternFinder:
 
     def ambiguous_text_finder(self):
 
-        if  self.banner["buttons"]["deny_btn"]is not None:
-                deny_btn = self.banner["buttons"]["deny_btn"]
+        if self.banner["buttons"]["deny_btn"] is not None:
+            deny_btn = self.banner["buttons"]["deny_btn"]
 
-                if deny_btn["ambiguous_text"] is not None:
-                    self.ambiguous_text = True
-                else:
-                    self.ambiguous_text = False
+            if deny_btn["ambiguous_text"] is not None:
+                self.ambiguous_text = deny_btn["ambiguous_text"]
         else:
             self.ambiguous_text = False
         return
 
     def generate_result(self):
-        if(self.exist_buttons):
+        if (self.exist_buttons):
             self.ambiguous_text_finder()
             self.exists_color_mismatch()
             self.exists_cookie_policy()
@@ -134,33 +130,31 @@ class DarkPatternFinder:
 
     def calculate_score(self):
         score = 0
-        if self.redirect:
+        if self.redirect and self.redirect is not None:
             score += 3
 
-        if not self.cookie_policy:
+        if not self.cookie_policy and self.cookie_policy is not None:
             score += 4
 
-        if self.color_mismatch:
+        if self.color_mismatch and self.color_mismatch is not None:
             score += 1
 
-        if self.size_mismatch:
+        if self.size_mismatch and self.size_mismatch is not None:
             score += 1
 
-        if self.no_way_opt_first_layer:
+        if self.no_way_opt_first_layer and self.no_way_opt_first_layer is not None:
             score += 4
 
-        if self.no_way_opt_second_layer:
+        if self.no_way_opt_second_layer and self.no_way_opt_first_layer is not None:
             score += 2
 
-        if not self.manage_preferences:
+        if not self.manage_preferences and self.manage_preferences is not None:
             score += 3
 
-        if self.ambiguous_text:
+        if self.ambiguous_text and self.ambiguous_text is not None:
             score += 2
 
         return score
-
-
 
 
 def start_analysis(api_url):
@@ -169,11 +163,15 @@ def start_analysis(api_url):
     results = []
     print(data)
     for banner in data:
-        dark_pattern_finder = DarkPatternFinder(banner)
-        results.append(dark_pattern_finder.generate_result())
-
+        if banner["url"] == "https://perugiatoday.it":
+            break
+        if banner["buttons"] is not None:
+            if banner["buttons"]["deny_btn"] is not None and banner["buttons"]["approve_btn"] is not None and banner["buttons"]["more_btn"] is not None and banner["buttons"]["cookie_policy"] is not None:
+                dark_pattern_finder = DarkPatternFinder(banner)
+                results.append(dark_pattern_finder.generate_result())
 
     results_file = open("data.json", "w")
     results_string = json.dumps(results)
     results_file.write(results_string)
     results_file.close()
+    print(len(results))
