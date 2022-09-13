@@ -101,10 +101,8 @@ class DarkPatternFinder:
         if (self.exist_buttons):
             self.ambiguous_text_finder()
             self.exists_color_mismatch()
-            self.exists_cookie_policy()
             self.exists_redirect()
             self.exists_size_mismatch()
-            self.no_way_to_manage_preferences()
             self.no_way_to_opt()
 
             data = {
@@ -114,8 +112,6 @@ class DarkPatternFinder:
                 "no_way_to_opt_first_layer": self.no_way_opt_first_layer,
                 "no_way_to_opt_second_layer": self.no_way_opt_second_layer,
                 "redirect": self.redirect,
-                "manage_preferences": self.manage_preferences,
-                "cookie_policy": self.cookie_policy,
                 "ambiguous_text": self.ambiguous_text,
                 "dark_pattern_score": self.calculate_score()
             }
@@ -133,9 +129,6 @@ class DarkPatternFinder:
         if self.redirect and self.redirect is not None:
             score += 3
 
-        if not self.cookie_policy and self.cookie_policy is not None:
-            score += 4
-
         if self.color_mismatch and self.color_mismatch is not None:
             score += 1
 
@@ -148,9 +141,6 @@ class DarkPatternFinder:
         if self.no_way_opt_second_layer and self.no_way_opt_first_layer is not None:
             score += 2
 
-        if not self.manage_preferences and self.manage_preferences is not None:
-            score += 3
-
         if self.ambiguous_text and self.ambiguous_text is not None:
             score += 2
 
@@ -160,6 +150,7 @@ class DarkPatternFinder:
 def start_analysis(api_url):
     response = requests.get(api_url)
     data = response.json()
+    statistics = {}
     results = []
     print(data)
     for banner in data:
@@ -170,8 +161,68 @@ def start_analysis(api_url):
                 dark_pattern_finder = DarkPatternFinder(banner)
                 results.append(dark_pattern_finder.generate_result())
 
-    results_file = open("data.json", "w")
+    response2 = requests.get("http://127.0.0.1:8000/get_banners_sorted_second")
+    data2 = response2.json()
+    for banner in data2:
+        if banner["buttons"] is not None:
+            if banner["buttons"]["deny_btn"] is not None and banner["buttons"]["approve_btn"] is not None and \
+                    banner["buttons"]["more_btn"] is not None and banner["buttons"]["cookie_policy"] is not None:
+                dark_pattern_finder = DarkPatternFinder(banner)
+                results.append(dark_pattern_finder.generate_result())
+
+    sites_with_score_zero, sites_with_score_max, total_of_score = 0, 0, 0
+    total_number_of_color_violation = 0
+    total_number_of_size_violation = 0
+    total_number_of_no_way_first_violation = 0
+    total_number_of_no_way_second_violation = 0
+    total_number_of_redirect_violation = 0
+    total_number_of_ambiguous_violation = 0
+
+
+    for result in results:
+        total_of_score += result["dark_pattern_score"]
+        if result["dark_pattern_score"] == 0:
+            sites_with_score_zero += 1
+
+        if result["dark_pattern_score"] == 13:
+            sites_with_score_max += 1
+
+        if result["color_mismatch"] == True:
+            total_number_of_color_violation += 1
+
+        if result["size_mismatch"] == True:
+            total_number_of_size_violation += 1
+
+        if result["no_way_to_opt_first_layer"] == True:
+            total_number_of_no_way_first_violation += 1
+
+        if result["no_way_to_opt_second_layer"] == True:
+            total_number_of_no_way_second_violation += 1
+
+        if result["redirect"] == True:
+            total_number_of_redirect_violation += 1
+
+        if result["ambiguous_text"] == True:
+            total_number_of_ambiguous_violation += 1
+
+    statistics = {"sites_with_score_zero": sites_with_score_zero,
+                  "sites_with_score_max": sites_with_score_max,
+                  "score_average": total_of_score/len(results),
+                  "total_number_of_color_violation": total_number_of_color_violation,
+                  "total_number_of_size_violation": total_number_of_size_violation,
+                  "total_number_of_no_way_first_violation": total_number_of_no_way_first_violation,
+                  "total_number_of_no_way_second_violation": total_number_of_no_way_second_violation,
+                  "total_number_of_redirect_violation": total_number_of_redirect_violation,
+                  "total_number_of_ambiguous_violation": total_number_of_ambiguous_violation
+                  }
+    statistics_file = open("data/results/statistics.json", "w")
+    statistics_string = json.dumps(statistics)
+    statistics_file.write(statistics_string)
+    statistics_file.close()
+
+
+    results_file = open("data/results/results_heuristics.json", "w")
     results_string = json.dumps(results)
     results_file.write(results_string)
     results_file.close()
-    print(len(results))
+

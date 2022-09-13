@@ -1,0 +1,11 @@
+{
+  "sites_with_score_zero": 59,
+  "sites_with_score_max": 0,
+  "score_average": 3.009433962264151,
+  "total_number_of_color_violation": 224,
+  "total_number_of_size_violation": 150,
+  "total_number_of_no_way_first_violation": 145,
+  "total_number_of_no_way_second_violation": 0,
+  "total_number_of_redirect_violation": 1,
+  "total_number_of_ambiguous_violation": 0
+}

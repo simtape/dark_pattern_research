@@ -1,0 +1,3182 @@
+[
+  {
+    "url": "https://01net.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://2000net.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://abruzzoweb.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://academiabarilla.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://ad-italia.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://aeroportoditorino.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://agenziagiovani.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://agrigentonotizie.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://agrodolce.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://aku.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://ambrosiana.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://anconatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://animasgr.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://ant.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://aostasera.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://arezzonotizie.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://askanews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://autoblog.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://automoto.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://avellinotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://azzurro.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://badtaste.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://barcolana.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://baritoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://bergamonews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://biccy.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://blitzquotidiano.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://blogo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://bluserena.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://bolognatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://borse.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://bose.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://bracchi.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://braincomputing.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://bresciatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://brindisireport.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://brocardi.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://buffetti.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://buonissimo.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://businesscommunity.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://butac.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://calendario-365.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://campustore.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://cantori.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://casertanews.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://catalano.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://cataniatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://cdp.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://ceinorme.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://centropagina.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://cesenatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://chiesadimilano.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://chietitoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://cicloweb.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://cineblog.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://cinetecadibologna.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://clal.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://colesanto.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://comet.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://comune.fe.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://comune.milano.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://conad.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://corriereromagna.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://criptovaluta.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://culligan.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://cupido.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://cybermarket.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://davidemaggio.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://devitalia.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://diariodelweb.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://digital-forum.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://dilei.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://diredonna.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://dirittobancario.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://dituttounpop.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://dolcegabbana.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://donnaglamour.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://donnapop.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://donnemagazine.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://doriapamphilj.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://doveecomemicuro.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://eatalyworld.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://emilgroup.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://enotecapinchiorri.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://eolo.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://epress.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://etics.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://everyeye.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://fantini.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://farmasave.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://federtennis.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://ficr.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://fieramilano.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://fifaultimateteam.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://filastrocche.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://fiorentina.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://firenzetoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://foggiatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://fondimpresa.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://foodblog.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://forexinfo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://forlitoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://frosinonetoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://gamberorosso.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://gammadonna.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://gardaland.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://gardatrentino.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://garr.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://gaxagas.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://gazzettadiparma.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://genova24.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://genovatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://geny.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://geopop.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://gestionaleimmobiliare.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://giochi24.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://giornaledibrescia.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://giornaletrentino.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://giornalone.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://globalist.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://gonews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://gqitalia.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://granapadano.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://gravidanzaonline.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://greenme.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://greenstyle.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://html.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://hype.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ilcapoluogo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ilcittadino.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://ilcittadinomb.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ildenaro.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://ilfaroonline.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ilfattovesuviano.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://ilpescara.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://ilpiacenza.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://ilriformista.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://immagica.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://internapoli.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://isaechia.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://italia.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://ivg.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://jobmeeting.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://kaleidoneditrice.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://kodami.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://kong.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": true,
+    "ambiguous_text": false,
+    "dark_pattern_score": 3
+  },
+  {
+    "url": "https://kosmosol.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://lacucinaitaliana.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://ladige.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://lanotiziagiornale.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://lanuovasardegna.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://lapressa.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://laprovinciadisondrio.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://larocheposay.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://lasicilia.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://latinatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://latuadietapersonalizzata.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://lav.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://lecceprima.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://leonardo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://lesacoutlet.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://libero.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://libraccio.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://lifebrain.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://likeevent.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://lindro.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://linkoristano.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://livesicilia.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://livornotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://lospicchiodaglio.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://lotto-italia.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://lotto.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://lumsa.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://lunet.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://lynx2000.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://mailup.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://malpensaexpress.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://mamme.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://mammemagazine.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://mangayo.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://marcheingol.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://maserati.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://maternita.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://mbnews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://mediolanum.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://melablog.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://messinatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://metronews.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://milanotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://milleunadonna.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://mirage.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://mite.gov.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://modenatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://monzatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://moto.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://motori.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://mutuionline.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://myblog.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://mywic.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://namirial.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://napolidavivere.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://napolitoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://negoziodelvino.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://nen.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://newsmondo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://newsonline.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://nextquotidiano.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://nicolaporro.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://nientepopcorn.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://notizie.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://notiziemusica.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://novaratoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://obi-italia.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://occhionotizie.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://offerteshopping.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://oraridiapertura24.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ovh.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://padovaoggi.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://pagellapolitica.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://paginebianche.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://pagopa.gov.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://palermotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://paolalenti.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://parcocolosseo.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://parmatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://patentati.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://payclick.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://perugiatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://pharmastar.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://piacenzasera.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://pisatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://plug.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://pmi.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://pokerstars.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://pokerstarscasino.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://popcorntv.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://positanonews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://poste.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://primabergamo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://primamonza.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://primochef.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://primonumero.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://proiezionidiborsa.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://projectinvictus.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://quicomo.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://ravennanotizie.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ravennatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://rds.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://reggiochildren.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://reteimprese.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ricetta.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://ricettedalmondo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://riminitoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://rintraccialamiaspedizione.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://riviera24.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://robadadonne.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://rockit.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://rollingstone.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://romatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://sacchi.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://salernotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://salonelibro.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://sapere.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://scuderiequirinale.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://secoloditalia.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://segugio.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://ship2shore.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://siportal.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://sostariffe.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://soundsblog.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://spaghetti-interactive.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://spunteblu.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://sscnapoli.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://starnet.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://stateofmind.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://stradeanas.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://studentville.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://tag43.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://techprincess.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://tecnoandroid.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://teknonet.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://tempi.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://tesionline.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://theitaliantimes.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://tiscali.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://tomshw.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://torinotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://trenord.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://trentotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://trevisotoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://triesteprima.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://tuobenessere.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://tuttocitta.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://tvblog.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://tvdaily.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://tvserial.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://udinetoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://unibocconi.it",
+    "color_mismatch": false,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://unicz.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://uniweb.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://vanityfair.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://varesenews.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://vegolosi.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://veneziatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://veronasera.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://verymobile.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://viaggiamo.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://vicenzatoday.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 5
+  },
+  {
+    "url": "https://virgilio.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://visionetv.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://viverepesaro.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 2
+  },
+  {
+    "url": "https://vogue.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://webnews.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://weroad.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://wikicasa.it",
+    "color_mismatch": true,
+    "size_mismatch": true,
+    "no_way_to_opt_first_layer": true,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 6
+  },
+  {
+    "url": "https://wired.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  },
+  {
+    "url": "https://xoom.it",
+    "color_mismatch": true,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 1
+  },
+  {
+    "url": "https://zipgenius.it",
+    "color_mismatch": false,
+    "size_mismatch": false,
+    "no_way_to_opt_first_layer": false,
+    "no_way_to_opt_second_layer": false,
+    "redirect": false,
+    "ambiguous_text": false,
+    "dark_pattern_score": 0
+  }
+]
