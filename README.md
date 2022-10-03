@@ -1,8 +1,26 @@
-# DARK PATTERN RESEARCH
-A tool used for an university project work to conduct a web investigation among the most popular italian websites. The project aims to give a perspective on the usage of dark patterns and more in general of a deceptive design in the cookie banners.
+# Dark Pattern research
 
+A tool used for an university project work to conduct a web investigation among the most popular italian websites with the scope to find possible usage of deceptive design in the cookie banners.
 
-## Features
-- detection a banner on a website
-- detection the buttons of the detected banner
-- usage of heuristics to establish the entity of the dark pattern.
+# Project organization
+
+--------
+.
+├── data
+│   ├── csv_files
+│   ├── results
+│   └── screenshots
+│       ├── detected_banners
+│       └── visited_websites
+└── utilities
+    ├── search_handlers
+    ├── __init.py
+    ├── BannerDetector.py
+    ├── ButtonElement.py
+    ├── dark_pattern_heuristics.py
+    ├── .gitignore
+    └── README.md
+    
+--------
+
+# Getting started
