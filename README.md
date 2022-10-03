@@ -4,8 +4,8 @@ A tool used for an university project work to conduct a web investigation among 
 
 # Project organization
 
---------
-.
+
+```
 ├── data
 │   ├── csv_files
 │   ├── results
@@ -20,6 +20,8 @@ A tool used for an university project work to conduct a web investigation among 
     ├── dark_pattern_heuristics.py
     ├── .gitignore
     └── README.md
---------
+    
+```
+
 
 # Getting started
