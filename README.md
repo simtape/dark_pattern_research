@@ -1,4 +1,4 @@
-# Dark Pattern research
+# Dark Pattern Research
 
 A tool used for an university project work to conduct a web investigation among the most popular italian websites with the scope to find possible usage of deceptive design in the cookie banners.
 
