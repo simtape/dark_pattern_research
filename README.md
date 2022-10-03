@@ -47,7 +47,7 @@ startBannerDetection()
 In the file ``` BannerDetector```, specify the name of the list (csv format) of websites to analyze.
 ## Banner scraping
 Firstly, you have to set up the backend in order to store the collected elements from the banner.
-Get the backend here -> https://github.com/simtape/dark-pattern-backend and follow the instruction in the READme to set it up.
+Get the backend here -> https://github.com/simtape/dark-pattern-backend and follow the instruction in the README to set it up.
 To perform the scraping of elements off banners, call in main.py the method
 ```
 startButtonDetection()
